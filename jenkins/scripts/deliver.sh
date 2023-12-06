@@ -24,5 +24,6 @@ echo 'The following command runs and outputs the execution of your Java'
 echo 'application (which Jenkins built using Maven) to the Jenkins UI.'
 set -x
 chmod 777 -R target
+cd target
 ls -lrth
 java -jar target/${NAME}*.jar
