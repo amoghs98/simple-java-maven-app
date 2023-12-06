@@ -25,5 +25,4 @@ echo 'application (which Jenkins built using Maven) to the Jenkins UI.'
 set -x
 chmod 777 -R target
 cd target
-ls -lrth
 java -jar my-app-1.0-SNAPSHOT.jar
