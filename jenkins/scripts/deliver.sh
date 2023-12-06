@@ -26,4 +26,4 @@ set -x
 chmod 777 -R target
 cd target
 ls -lrth
-java -jar target/${NAME}*.jar
+java -jar my-app-1.0-SNAPSHOT.jar
